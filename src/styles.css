@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  background: beige;
+}
+.top-bar {
+  border-color: #bb111a;
+  border-style: solid;
+  border-width: 3px;
+  background-color: #bb111a;
+  width: 200px;
+  height: 75px;
+  float: left;
+}
+#bar-text {
+  font-size: 25px;
+  color: black;
+}

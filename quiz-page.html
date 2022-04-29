@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+      <title>Quiz</title>
+      <link rel="icon" type="image/x-icon" href="images/arpit-bkg" />
+    <style>
+      .top-bar {
+        border-color: #bb111a;
+        border-style: solid;
+        border-width: 3px;
+        background-color: #bb111a;
+        width: 200px;
+        height: 75px;
+        float: left;
+        cursor: pointer;
+      }
+      #bar-text {
+        font-size: 25px;
+        color: black;
+      }
+      .top-bar:hover {
+        background-color: #e21a25;
+        border-color: #e21a25;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button
+        class="top-bar"
+        style="background-image: url('images/arpit-bkg');"
+        onclick="document.location='index.html'"
+      >
+        <strong id="bar-text" style="">Arpit Fan Page&copy;</strong>
+      </button>
+      <button class="top-bar" onclick="document.location='image-gallery.html'">
+        <span id="bar-text">
+          Arpit Image Gallery
+        </span>
+      </button>
+      <button class="top-bar" onclick="document.location='about.html'">
+        <span id="bar-text">
+          About Arpit 
+        </span>
+      </button>
+      <button style="width: 700px;  border-color: #bb111a;
+      border-style: solid;
+      border-width: 3px;
+      background-color: #bb111a;
+      height: 75px;
+      float: left;"></button>
+      <button class="top-bar" onclick="document.location='quiz-page.html'">
+        <span id="bar-text" style="text-align: center; float: right">Arpit quiz</span>
+      </button>
+    </div>
+
+    
+  <div style="float: left;">
+     
+      <p style="float: left; padding-top:25px;"> What year was Arpit born?
+       <br> 
+        <form>
+            <input type="radio" id="q1a1" name="q1" value="a1">
+            <label for="html">2005</label><br>
+            <input type="radio" id="q1a2" name="q1" value="a2">
+            <label for="css">2002</label><br>
+            <input type="radio" id="q1a3" name="q1" value="a3">
+            <label for="javascript">2004</label>
+          </form>
+
+          <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+     </p>   
+      
+
+    </div>
+
+    <script></script>
+  </body>
+</hmtl>
